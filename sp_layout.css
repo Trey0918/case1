@@ -14,6 +14,11 @@
 */
 
 /* Window and Body Styles */
+body{
+   max-height: 100%;
+   max-width: 95%, 640px, 960px;
+   margin: auto;
+}
 
 
 
