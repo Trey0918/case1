@@ -24,7 +24,9 @@ body{
 
 
 /* CSS Grid Styles */
-
+body{
+   grid-column: 25, 25, 25, 25;
+}
 
 
 
