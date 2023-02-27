@@ -16,51 +16,58 @@
 /* Window and Body Styles */
 html{
    height: 100%;
-   min-height: 100%;
+   
 }
 body{
    width: 95%;
    range: 640px, 960px;
    margin: center;
+   min-height: 100%;
 }
 
 
 /* CSS Grid Styles */
 body{
    display: grid;
-   grid-column: 25, 25, 25, 25;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+img{
+   display: block;
 }
 img#logo{
-   column-span: 2;
+   grid-column: span 3;
    width: 100%;
-}
-img.inline{
-   display: block;
 }
 
 
 /* Horizontal Navigation List Styles */
 footer{
-   column-span: 4;
+   grid-column: 1/ span 4;
 }
 aside{
-   column-span: 2;
+   grid-column: 1/ span 2;
 }
-li.nav{
+li :horizontal{
    display: block;
    width: 12.5%;
-   float: left;
+   float: left;  
 }
 
 
 /* Section Styles */
-section inline{
+img{
    width: 50%;
-   margin: 0, auto, 0, auto;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
 }
-p.section{
+p section{
    width: 70%;
-   margin: 0, auto, 0, auto;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 
@@ -75,7 +82,7 @@ p.aside{
    margin-left: 5%;
    float: left;
 }
-aside.img{
+aside#img{
    width: 20%;
 }
 
