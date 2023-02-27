@@ -25,7 +25,6 @@ body{
 }
 
 
-
 /* CSS Grid Styles */
 body{
    display: grid;
@@ -40,14 +39,11 @@ img.inline{
 }
 
 
-
-
-
 /* Horizontal Navigation List Styles */
 footer{
    column-span: 4;
 }
-li.aside{
+aside{
    column-span: 2;
 }
 li.nav{
@@ -58,7 +54,7 @@ li.nav{
 
 
 /* Section Styles */
-img.section{
+section inline{
    width: 50%;
    margin: 0, auto, 0, auto;
 }
@@ -73,5 +69,13 @@ aside:nth-of-type(odd){
    width: 75%;
    padding-bottom: 30px;
    justify-self: right;
-   
 }
+p.aside{
+   width: 75%;
+   margin-left: 5%;
+   float: left;
+}
+aside.img{
+   width: 20%;
+}
+
