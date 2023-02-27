@@ -35,6 +35,9 @@ img#logo{
    column-span: 2;
    width: 100%;
 }
+img.inline{
+   display: block;
+}
 
 
 
@@ -44,16 +47,13 @@ img#logo{
 footer{
    column-span: 4;
 }
-aside{
+li.aside{
    column-span: 2;
-}
-li{
-   display: block;
-   width: 12.5%;
-   float: left;
 }
 li.nav{
    display: block;
+   width: 12.5%;
+   float: left;
 }
 
 
@@ -69,7 +69,9 @@ p.section{
 
 
 /* Customer Comment Styles */
-aside{
+aside:nth-of-type(odd){
    width: 75%;
-
+   padding-bottom: 30px;
+   justify-self: right;
+   
 }
