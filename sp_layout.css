@@ -62,12 +62,9 @@ img{
    margin-left: auto;
    margin-right: auto;
 }
-p section{
+p:section{
    width: 70%;
-   margin-top: 0;
-   margin-bottom: 0;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0, auto, 0, auto;
 }
 
 
